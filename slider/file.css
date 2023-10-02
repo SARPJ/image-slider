@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  height: 80vh;
+  width: 100%;
+}
+
+.slider .box {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.slider .box img {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+.arr1 {
+  height: 34px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: antiquewhite;
+  border-radius: 50px;
+}
+.arr2 {
+  height: 34px;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  background-color: antiquewhite;
+  border-radius: 50px;
+}
